@@ -85,4 +85,99 @@ hr{
     letter-spacing: 1px;
     color: #ffffff;
 }
+/* Featured Episodes */
+.episodes{
+          background: linear-gradient(180deg, #0f0029, #1a003d);
+          color: white;
+                padding: 40px;
+                margin: 0 auto;
+}
+.episodes h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size:48px ;
+}
+.episodes-card{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+.card{
+    background: #2a0a52;
+    padding: 16px;
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+}
+.card:hover{
+    transform: translateY(-6px);
+}
+.video iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    border: none;
+}
+.card h3{
+    margin:  12px 0 6px;
+    text-align: center;
+    font-size: 28px;
+    color: #ffffff;
+}
+.card p{
+     text-align: center;
+    font-size: 16px;
+    color:#ffffff;
+    margin-bottom: 8px;
+}
+.time{
+    font-size: 10px;
+    color: #00ff88;
+    font-weight: 500;
+   
+}
+/* meet host */
+.host-section{
+    max-width: 1600px;
+    margin-top:120px;
+}
+.host-card{
+    background:#2a0a52;
+    border-radius:18px ;
+    padding: 18px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.host-img img{
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rosybrown;
+    margin-top: 40px;
+}
+.host-content p{
+  font-size: 15px;
+  color: #d0d0d0;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+.host-content h3{
+    font-size: 48px;
+    margin-top: 40px;
+}
+.socials {
+    display: flex;
+    gap: 12px;
+}
+.socials img{
+    
+  border-radius: 90px;
+  display: flex;
+  gap: 20px;
+  border: 2px solid rosybrown;
+  align-items: center;
+  justify-content: center;
+
+}
 @import "tailwindcss"
