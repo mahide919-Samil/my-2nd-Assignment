@@ -241,56 +241,60 @@ hr {
 }
 
 /* Why Choose Section */
-.why-section {
-    background: linear-gradient(180deg, #14002b, #2b0040);
-    padding: 80px 20px;
+.features-section{
+    background-color: #2d095d;
+    padding: 60px 20px;
     color: #ffffff;
-}
-
-.why-section h2 {
     text-align: center;
+}
+.title{
     font-size: 48px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
-
-.why-grid {
-    max-width: 1200px;
-    margin: auto;
+.bento-grid{
     display: grid;
-    grid-template-columns: 1.2fr 1fr 1fr;
-    grid-template-rows: repeat(2 auto);
-    gap: 24px;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+.car{
+background-color: #2b144d;
+padding: 30PX;
+border-radius: 30PX;
+/* display: flex; */
+/* flex-direction: column;
+justify-content: flex-start; */
+}
+.gradient-icon{
+    margin-bottom: 15px;
 
 }
-
-.why-card {
-    background: #2a0a52;
-    padding: 24px;
-    border-radius: 18px;
-
+.car h3{
+    font-size: 25px;
+    margin-bottom: 12px;
 }
-
-.why-card.big {
-    grid-row: 1 / span 2;
+.car p{
+    font-size: 16px;
+    color: #b3b3b3;
+    line-height: 1.5;
 }
-
-.icon {
-    margin-bottom: 12PX;
+.permium-audio{
+    grid-row: span 2;
 }
-
-.why-card h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-
+.mobile-friendly,.global-community{
+    grid-column: span 2;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
 }
-
-why-card p {
-    font-size: 14px;
-    color: #d0d0d0;
-    line-height: 1.6;
+.exclusive-interviews{
+    grid-column: span 2; 
+} 
+.rich-resources{
+    grid-column: span 1;
 }
-
-
 /* Featured Episodes */
 .episodes {
     background: linear-gradient(180deg, #0f0029, #1a003d);
@@ -355,9 +359,9 @@ why-card p {
 }
 
 .time {
-    font-size: 10px;
+    font-size: 17px;
     color: #00ff88;
-    font-weight: 500;
+    font-weight: bolder;
 
 }
 
