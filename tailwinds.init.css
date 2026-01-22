@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+}
 /* naver */
 
 .navbar {
